@@ -1,0 +1,16 @@
+*.DS_Store
+*.resharper
+*.csproj.ReSharper
+_ReSharper.*
+*.suo
+*.user
+
+
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+/std-wrapper-win/*/[Bb]in/
+/std-wrapper-win/*/[Oo]bj/
+/std-wrapper-win/packages
+
+/*.crx
+/plugin/mstsc-host/*.dll
+/plugin/mstsc-host/*.exe
