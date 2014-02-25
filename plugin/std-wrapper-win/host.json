@@ -1,5 +1,5 @@
 {
-  "name": "com.thoughtworks.std-wrapper",
+  "name": "com.thoughtworks.stdwrapper",
   "description": "std wrapper",
   "path": "std-wrapper.exe",
   "type": "stdio",

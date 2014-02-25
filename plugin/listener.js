@@ -3,7 +3,6 @@ document.addEventListener('mousedown', function(event){
   //possibility: check that the mouse button == 2
   if(event.button == 2) { 
         clickedEl = event.target;
-        console.log(clickedEl);
     }
 }, true);
 

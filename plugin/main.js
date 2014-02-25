@@ -6,7 +6,7 @@ var id = chrome.contextMenus.create({
 	  		if (text) {
 		  		var ip = text.match(/ip:([.\d]*)/)[1]
 		  		if (!!ip) {
-					chrome.runtime.sendNativeMessage("com.thoughtworks.std-wrapper", {
+					chrome.runtime.sendNativeMessage("com.thoughtworks.stdwrapper", {
 						"cmd" : "c:\\windows\\system32\\mstsc.exe",
 						"arguments" : "-v " + ip
 					}, function(){});

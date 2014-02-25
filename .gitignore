@@ -12,5 +12,5 @@ _ReSharper.*
 /std-wrapper-win/packages
 
 /*.crx
-/plugin/app-host/*.dll
-/plugin/app-host/*.exe
+/plugin/std-wrapper-win/*.dll
+/plugin/std-wrapper-win/*.exe
