@@ -12,7 +12,6 @@ chrome.extension.onRequest.addListener(function(request, sender, sendResponse){
 menu addons, here would be where your code goes*/
   // last_target.style.display = 'none';
   if (request == "mstsc") {
-    console.log(clickedEl);
     // clickedEl.appendChild('<a href="rdp://10.18.8.31"></a>')
   	sendResponse(clickedEl.text);
   };

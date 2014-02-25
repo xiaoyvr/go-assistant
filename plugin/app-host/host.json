@@ -1,6 +1,6 @@
 {
-  "name": "com.thoughtworks.mstsc",
-  "description": "Remote Desktop Host",
+  "name": "com.thoughtworks.std-wrapper",
+  "description": "std wrapper",
   "path": "std-wrapper.exe",
   "type": "stdio",
   "allowed_origins": [
